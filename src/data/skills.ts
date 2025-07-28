@@ -3,26 +3,20 @@ import {
   SiSocketdotio,
   SiPrisma,
   SiNextdotjs,
-  SiFlask,
+  SiCplusplus,
 } from "react-icons/si";
-import {
-  FramerMotionIcon,
-  ReactRouterDomIcon,
-  VitePwaIcon,
-} from "@/components/icons";
+import { FramerMotionIcon, ReactRouterDomIcon } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
 import HtmlSvg from "@/public/icons/html.svg";
 import CsssSvg from "@/public/icons/css.svg";
-import SassSvg from "@/public/icons/sass.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
-import TypescriptSvg from "@/public/icons/typescript.svg";
+import TypescriptSvg from "@/public/icons/typescrip.svg";
 import PythonSvg from "@/public/icons/python.svg";
 
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
-import SolidjsSvg from "@/public/icons/solidjs.svg";
 import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import MuiSvg from "@/public/icons/mui.svg";
@@ -54,8 +48,8 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: CsssSvg,
       },
       {
-        name: "SASS",
-        icon: SassSvg,
+        name: "C++",
+        icon: SiCplusplus,
       },
       {
         name: "Javascript",
@@ -83,10 +77,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: SiNextdotjs,
       },
       {
-        name: "Solidjs",
-        icon: SolidjsSvg,
-      },
-      {
         name: "React Router Dom",
         icon: ReactRouterDomIcon,
       },
@@ -110,10 +100,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Vite",
         icon: ViteSvg,
       },
-      {
-        name: "Vite PWA",
-        icon: VitePwaIcon,
-      },
     ],
   },
   {
@@ -130,10 +116,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Socket.io",
         icon: SiSocketdotio,
-      },
-      {
-        name: "Flask",
-        icon: SiFlask,
       },
     ],
   },
