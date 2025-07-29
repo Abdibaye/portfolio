@@ -12,7 +12,7 @@ import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 import HtmlSvg from "@/public/icons/html.svg";
 import CsssSvg from "@/public/icons/css.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
-import TypescriptSvg from "@/public/icons/typescrip.svg";
+import TypescriptSvg from "@/public/icons/typescript.svg";
 import PythonSvg from "@/public/icons/python.svg";
 
 // Libraries
