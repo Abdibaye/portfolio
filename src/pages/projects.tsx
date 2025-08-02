@@ -76,5 +76,5 @@
 import React from "react";
 
 export default function Projects() {
-  return <div className="text-red">comming soon</div>;
+  return <div className="text-red">Coming soon</div>;
 }
